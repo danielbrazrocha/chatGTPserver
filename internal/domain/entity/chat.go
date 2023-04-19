@@ -51,10 +51,18 @@ func (c *Chat) Validate() error {
 	if c.Status != "active" && c.Status != "ended" {
 		return errors.New("invalid status")
 	}
-	if c.Config.Temperature < 0 || c.Config.Temperature > 2 {
+	if c.Config.Temperature < 0 || c.Config.Temperature > 1 {
 		return errors.New("invalid temperature")
 	}
-	// ... more validations for config
+	if c.Config.TopP < 0 || c.Config.TopP > 1 {
+		return errors.New("invalid TopP config")
+	}
+	if c.Config.FrequencyPenalty < 0 || c.Config.FrequencyPenalty > 2 {
+		return errors.New("invalid frequency penalty")
+	}
+	if c.Config.PresencePenalty < 0 || c.Config.PresencePenalty > 2 {
+		return errors.New("invalid presence penalty")
+	}
 	return nil
 }
 
