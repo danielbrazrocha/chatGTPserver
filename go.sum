@@ -1,3 +1,5 @@
+github.com/devfullcycle/fclx/chatservice v0.0.0-20230419161310-c38c2aa965b1 h1:Wn7pnV1a0ruPdDpK6paWHHCjg4Tn1jKjsydJdHZxL0s=
+github.com/devfullcycle/fclx/chatservice v0.0.0-20230419161310-c38c2aa965b1/go.mod h1:k5oc57q/hb0PYAlbeHFG5pTL46oBzPGL7LM01eR9sJ4=
 github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
 github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/j178/tiktoken-go v0.2.1 h1:bs8z+tj8YEYtFKOtUsyIUwnnsIfNb+UgdGEJX/HkTBU=
