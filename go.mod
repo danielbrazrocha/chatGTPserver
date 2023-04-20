@@ -8,6 +8,7 @@ require (
 )
 
 require (
-	github.com/devfullcycle/fclx/chatservice v0.0.0-20230419161310-c38c2aa965b1
+	github.com/go-chi/chi v1.5.4
+	github.com/go-chi/chi/v5 v5.0.8
 	github.com/sashabaranov/go-openai v1.5.8
 )
